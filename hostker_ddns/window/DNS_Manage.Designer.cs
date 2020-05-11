@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(514, 261);
             this.Name = "DNS_Manage";
             this.Text = "DNS_Manage";
+            this.Load += new System.EventHandler(this.DNS_Manage_Load);
             this.ResumeLayout(false);
 
         }

@@ -16,5 +16,10 @@ namespace hostker_ddns.window
         {
             InitializeComponent();
         }
+
+        private void DNS_Manage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

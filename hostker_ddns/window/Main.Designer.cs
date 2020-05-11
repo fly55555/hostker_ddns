@@ -84,6 +84,7 @@
             this.Controls.Add(this.DNS_Manage_Button);
             this.Name = "Main";
             this.Text = "Main";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.TabControl.ResumeLayout(false);
             this.ResumeLayout(false);
 

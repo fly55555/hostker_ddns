@@ -22,5 +22,10 @@ namespace hostker_ddns.window
             var dns_manage = new DNS_Manage();
             dns_manage.ShowDialog();
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
